@@ -6,8 +6,10 @@ NodeJS é responsável por fazer com que o JavaScript possa ser executado no sis
 # 2º Passo - Instalação do Vue
 Podemos instalar o Vue utilizando o NPM (Gerenciador de Pacotes Node), que é uma biblioteca para procurarmos os frameworks (pedaço de trabalho) que iremos utilizar.
 
-Com o seguinte comando
+Com o seguinte comando:
 
 ``` bash
 npm install @vue/cli -g
 ```
+
+Para executar o comando escolha a pasta primeiro, pelo cmd ou bash do git.
