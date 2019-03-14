@@ -13,3 +13,20 @@ npm install @vue/cli -g
 ```
 
 Para executar o comando escolha a pasta primeiro, pelo cmd ou bash do git.
+
+# 3º Passo - Criação do Projeto
+
+``` bash
+vue create nome-projeto
+```
+
+Selecionar manualmente (Manually select)
+- Selecioar Babel, PWA, Router e Desmarcar ESLint
+
+**Use as setinhas do teclado para ir para cima e para baixo e espaço para marcar e desmarcar**
+
+Não usar o mode o histórico de rotas
+
+Selecionar o package.json
+
+Não salvar as configurações para os próximos projetos
