@@ -21,7 +21,7 @@ export default new Router({
       component: Cliente
     },
     {
-      path: '/funcionario',
+      path: '/func',
       name: 'funcionario',
       component: Funcionario
     }  ]
