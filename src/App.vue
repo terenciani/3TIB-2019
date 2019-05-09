@@ -13,7 +13,7 @@
   	<v-navigation-drawer 
 		class="grey darken-3"
 		dark
-		absolute
+		fixed
   		v-model="drawer"
   	>
   		<v-toolbar 
