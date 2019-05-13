@@ -1,6 +1,6 @@
 <template>
   <v-app>
-  	<v-toolbar class="grey darken-3" dark>
+  	<v-toolbar class="grey darken-3" dark v-if="logado">
   		<v-toolbar-side-icon 
   			@click.stop="drawer = !drawer"
   			color="white--text"
@@ -70,7 +70,8 @@
   export default {
     data () {
       return {
-        drawer: false
+				drawer: false,
+				logado: true
       }
     }
   }
