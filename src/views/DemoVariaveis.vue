@@ -50,15 +50,7 @@
         methods:{
             realizarLogin(){
                 
-                if(this.email == "terenciani@outlook.com" && this.senha=='123'){
-                    this.mensagem = "Login ok"
-                    this.cor = "success"
-                    this.alert = true
-                }else{
-                    this.mensagem = "Não esta autorizado"
-                    this.cor = "error"
-                    this.alert = true
-                }
+                
             }
         }
     }
